@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="15dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/tiburon"></ImageView>
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:text="CARRITO A CONTROL REMOTO"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="50dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/buttonOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="#EE5748"
+            android:text=" Automatico "
+            android:textColor="#000"
+            android:textSize="20dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnadelante"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:text="Acelerar"
+            android:background="#9EEE48"
+            android:layout_margin="10dp"
+            android:textSize="18dp"></Button>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btnizquierda"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:text="Izquierda"
+            android:background="#9EEE48"
+            android:layout_margin="10dp"
+            android:textSize="18dp"></Button>
+
+        <Button
+            android:id="@+id/buttonOff"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="#EE6238"
+            android:text="Parar"
+            android:textColor="#000"
+            android:textSize="20dp"></Button>
+
+        <Button
+            android:id="@+id/btnderecha"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:text="  Derecha"
+            android:background="#9EEE48"
+            android:layout_margin="10dp"
+            android:textSize="18dp"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnparar"
+            android:layout_width="140dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:text="Retroceder"
+            android:background="#9EEE48"
+            android:layout_margin="10dp"
+            android:textSize="18dp"></Button>
+    </LinearLayout>
+</LinearLayout>
